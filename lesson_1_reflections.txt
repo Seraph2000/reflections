@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It was really useful, because it brought back just the code from the 'old' and 'new' files where there were discrepancies - which made hunting forf bugs a lot more efficent than the manual alternative.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It would be an invaluable means of firstly assessing progress, secondly, you can make comparisons between versions, and decide on an optimal version - should a previous version be better.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Having the option to manually create a commit, means that you can make sure that the commits correspond to logical points in the coding process, and that there are not too many commits, or too few, or commits occurring at innappropriate points in the 	project. The main disadvantage however, is that one could easily forget to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Version control systems such as Google Docs are dealing with files such as photos or text, which generally don't require comparisons to take place between different versions  - these are generally fine viewed singly. Git, on the other hand provides version control for code, and because of the level of intricacy involved in programming, comparison between two different versions is crucial.
+
+How can you use the commands git log and git diff to view the history of files?
+"git log" shows all your commits for a particular project, which you have specified via the directory path - put: git log
+"git diff" is used to compare chages between two different commits - typically commits adjacent to one another - paste id for bottom commit, followed by id for commit above that (later commit) (i.e. commits sandwiching a comment describing a particular change)
+i.e. put: git diff 'earlier id' 'later id'
+
+How might using version control make you more confident to make changes that could break something?
+Version control allows you to trace back to a most recent change, using "git checkout <ID>" - then you can find out what went wrong, by entering "git log"
+
+Now that you have your workspace set up, what do you want to try using Git for?
+It'd be fun to use Git on some Scrapy code!

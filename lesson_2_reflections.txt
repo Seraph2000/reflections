@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+You need to initialize a repository in order to use Git. In this initial state no commits have been created, so if we were to enter 'git log', we would get an error message. 'git status' brings back all the files in the current repository where .git was initialized - all these files start off with an 'untracked' status.
