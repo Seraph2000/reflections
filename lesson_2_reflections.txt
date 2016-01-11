@@ -6,3 +6,6 @@ The staging area is where you add files. You can just add one file or you can ad
 
 How can you use the staging area to make sure you have one commit per logical change?
 The staging area could be thought of as a sort of 'in-between' zone where you can add files, but don't necessarily have to commit them. Before you decide to commit a file/some files, you can first compare any differences between the working directory and the staging area, using 'git diff', or compare the staging area with the most recent commit in the repository, ujsing 'git diff --staged'.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches, as the word suggests, are an excellent way 'branch' off into different versions of an idea. They are a way of labelling different off-shoots from main idea.
