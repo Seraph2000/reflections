@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 You need to initialize a repository in order to use Git. In this initial state no commits have been created, so if we were to enter 'git log', we would get an error message. 'git status' brings back all the files in the current repository where .git was initialized - all these files start off with an 'untracked' status.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is where you add files. You can just add one file or you can add multiple files in this area. It is useful to add multiple files if they are related in some way. If you add multiple files to the staging area, commits will be made on these simultaneously.
