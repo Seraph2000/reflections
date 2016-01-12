@@ -12,3 +12,9 @@ Branches, as the word suggests, are an excellent way 'branch' off into different
 
 How do the diagrams help you visualize the branch structure?
 Diagrams are really useful in order to make sure that all commmits remain accessible. You can make a new branchname like so: 'git checkout -b new_branch_name' - this is a good way to avoid any commits becoming disconnected, and thus, inaccessible.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is to combine all commits which are accessible, and ordering them by time stamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging obviously makes life easier, but sometimes, if the change/s to be merged are subtle - i.e. code-related, then manual merging may be necessary. Look back at lesson videos for examples.
