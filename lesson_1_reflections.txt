@@ -1,5 +1,5 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-It was really useful, because it brought back just the code from the 'old' and 'new' files where there were discrepancies - which made hunting forf bugs a lot more efficent than the manual alternative.
+It was really useful, because it brought back just the code from the 'old' and 'new' files where there were discrepancies - which made hunting for bugs a lot more efficent than the manual alternative.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 It would be an invaluable means of firstly assessing progress, secondly, you can make comparisons between versions, and decide on an optimal version - should a previous version be better.
