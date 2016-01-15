@@ -19,4 +19,4 @@ How might using version control make you more confident to make changes that cou
 Version control allows you to trace back to a most recent change, using "git checkout <ID>" - then you can find out what went wrong, by entering "git log"
 
 Now that you have your workspace set up, what do you want to try using Git for?
-It'd be fun to use Git on some Scrapy code! We're going to do that tomorrow!
+It'd be fun to use Git on some Scrapy code!
