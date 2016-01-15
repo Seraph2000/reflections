@@ -3,4 +3,4 @@ When would you want to use a remote repository rather than keeping all your work
 A remote repository is really handy when it comes to sharing code, and collaborating on it.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-When you pull changes, you are fetching them from another location - this could be from the remote repository on GitHub, or your local repository. Doing this manually means that you can take care to be pulling the commits from the correct remote and branch. Note the command: '$ git pull <remote> <branch>'. Ok, onto the next reflection... Let's see what happens now...
+When you pull changes, you are fetching them from another location - this could be from the remote repository on GitHub, or your local repository. Doing this manually means that you can take care to be pulling the commits from the correct remote and branch. Note the command: '$ git pull <remote> <branch>'. Ok, onto the next reflection... Let's see what happens now... And now?
