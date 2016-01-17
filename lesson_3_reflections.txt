@@ -7,3 +7,6 @@ When you pull changes, you are fetching them from another location - this could 
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 FORKS are the remote (GitHub) equivalent to CLONES - both involve making a copy of a repository. CLONING is what you do when you want to make a copy of a repository locally or remotely. FORKING is what you do on GitHub to make a copy of someone else's repository, which you can edit/add to in your GitHub account, without affecting the owner's original repository. BRANCHES could be thought of as "off-shoots" or "sub-categories" coming off the main, master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It is hugely beneficial to have a copy of the last known state of the remote stored locally - for the purpose of being able to resolve "merge conflicts" - where one might have a commit stored locally, and a commit stored remotley. You can use "git fetch origin master", to update local copies (add any remote commits not stored locally), and "git log origin/master" or "git diff origin/master" to analyse what is causing the merge conflict. Then to resolve the conflict, you need to enter "git merge master origin/master", open up and edit the file causing the conflict, and then commit changes.
